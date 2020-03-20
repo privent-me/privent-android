@@ -1,0 +1,2 @@
+rootProject.name='PreventGlobal'
+include ':app'
