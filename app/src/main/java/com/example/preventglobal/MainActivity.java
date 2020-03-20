@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private WebView webView;
     int lock = 0;
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,21 +77,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public boolean shouldOverrideUrlLoading(WebView view, String url)
             {
                 //view.loadUrl(url);
-                System.out.println("hello");
                 return false;
             }
 
             @Override
             public void onPageFinished(WebView view, String url) {
-                if (lock == 0) {
+                if (lock == 0 && url.startsWith("https://myaccount.google.com/")) {
                     lock = 1;
                     webView.loadUrl("https://www.google.com/maps");
                     return;
                 }
                 else if (lock == 1) {
-
-
-
                     lock = 2;
                     new AsyncHTTP().execute();
                 }
