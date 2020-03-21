@@ -55,7 +55,7 @@ public class GetData extends AppCompatActivity {
                     lock = 1;
                     webView.loadUrl("https://www.google.com/maps");
                 }
-                if (lock == 1) {
+                else if (lock == 1) {
                     lock = 2;
                     new AsyncHTTP().execute();
 

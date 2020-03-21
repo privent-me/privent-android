@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Privent.me</string>
-    <string name="privent_me_uses_google_location_data_from_the_past_two_weeks_to_predict_if_you_had_contact_with_the_virus_this_is_done_solely_to_help_identify_other_virus_carriers"><b>Privent.me</b> uses Google Location Data from the past two weeks to predict if you had contact with the virus. This is done solely to help identify other virus carriers.</string>
+    <string name="localization_text"><b>Privent.me</b> uses Google Location Data from the past two weeks to predict if you had contact with the virus. This is done solely to help identify other virus carriers.</string>
+    <string name="how">HOW IT WORKS</string>
+    <string name="privacy_text">Your data is highly anonymized and remains private. It will never be sold or otherwise misused.</string>
+    <string name="liability_text">Privent.me is not a substitute for professional medical advice, diagnosis, or treatment. Never disregard professional medical advice or delay in seeking it because of something you have learned here.</string>
+    <string name="button_next">Next</string>
+    <string name="button_i_want_to_help">I want to help!</string>
+    <string name="data_processing">By clicking \'I want to help\' I consent to have my anonymized data stored and analized for the purposes of COVID-19 prevention and prediction. Providing consent is voluntary. Consent may be revoked at any time.</string>
+    <string name="localization">Localization</string>
+    <string name="privacy">Privacy</string>
+    <string name="liability">Liability</string>
 </resources>

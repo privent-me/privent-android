@@ -1,4 +1,4 @@
-package com.example.preventglobal.ui.main;
+package com.example.preventglobal;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,9 +11,6 @@ import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.preventglobal.R;
-import com.example.preventglobal.Score;
-
 public class Questionary2 extends AppCompatActivity implements View.OnTouchListener {
 
     ImageView _view;
@@ -24,7 +21,7 @@ public class Questionary2 extends AppCompatActivity implements View.OnTouchListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_questionary);
+        setContentView(R.layout.activity_questionary2);
 
         _root = (ViewGroup)findViewById(R.id.root);
 
@@ -47,7 +44,7 @@ public class Questionary2 extends AppCompatActivity implements View.OnTouchListe
                     new Handler().post(new Runnable() {
                         @Override
                         public void run() {
-                            Intent splash = new Intent(Questionary2.this, Score.class);
+                            Intent splash = new Intent(Questionary2.this, Questionary3.class);
                             startActivity(splash);
                             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                             finish();
@@ -57,7 +54,7 @@ public class Questionary2 extends AppCompatActivity implements View.OnTouchListe
                     new Handler().post(new Runnable() {
                         @Override
                         public void run() {
-                            Intent splash = new Intent(Questionary2.this, Score.class);
+                            Intent splash = new Intent(Questionary2.this, Questionary3.class);
                             startActivity(splash);
                             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                             finish();

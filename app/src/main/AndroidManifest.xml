@@ -13,10 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Info"></activity>
+        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".Info" />
         <activity android:name=".Score" />
         <activity android:name=".GetData" />
         <activity android:name=".Questionary" />
+        <activity android:name=".Questionary2" />
+        <activity android:name=".Questionary3" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

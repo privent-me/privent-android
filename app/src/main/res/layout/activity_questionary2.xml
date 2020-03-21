@@ -5,8 +5,8 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00A69B"
-    tools:context=".Questionary">
+    android:background="@drawable/gradient_bg"
+    tools:context=".Questionary2">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -34,7 +34,7 @@
         android:layout_marginTop="37dp"
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="225dp"
-        android:text="Have you been tested for COVID-19 infection?"
+        android:text="Was it negative?"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -119,17 +119,33 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="265dp"
-        android:layout_height="110dp"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="89dp"
         android:layout_marginBottom="105dp"
-        android:text="Your data has been successfully anonymized. Now, let's qualify it."
+        android:text="Have you been tested for COVID-19 infection?"
         android:textAlignment="center"
+        android:textColor="#4DFFFFFF"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="98dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="37dp"
+        android:text="YES"
+        android:textAlignment="center"
+        android:textColor="#4DFFFFFF"
+        android:textSize="24sp" />
 
 </RelativeLayout>

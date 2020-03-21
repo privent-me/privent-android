@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import java.util.logging.XMLFormatter;
 
-public class Questionary1 extends AppCompatActivity implements View.OnTouchListener {
+public class Questionary extends AppCompatActivity implements View.OnTouchListener {
 
     ImageView _view;
     ViewGroup _root;
@@ -50,7 +50,7 @@ public class Questionary1 extends AppCompatActivity implements View.OnTouchListe
                     new Handler().post(new Runnable() {
                         @Override
                         public void run() {
-                            Intent splash = new Intent(Questionary1.this, Score.class);
+                            Intent splash = new Intent(Questionary.this, Questionary2.class);
                             startActivity(splash);
                             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                             finish();
@@ -60,7 +60,7 @@ public class Questionary1 extends AppCompatActivity implements View.OnTouchListe
                     new Handler().post(new Runnable() {
                         @Override
                         public void run() {
-                            Intent splash = new Intent(Questionary1.this, Score.class);
+                            Intent splash = new Intent(Questionary.this, Questionary2.class);
                             startActivity(splash);
                             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                             finish();
