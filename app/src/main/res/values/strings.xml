@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">PreventGlobal</string>
+    <string name="app_name">Privent.me</string>
+    <string name="privent_me_uses_google_location_data_from_the_past_two_weeks_to_predict_if_you_had_contact_with_the_virus_this_is_done_solely_to_help_identify_other_virus_carriers"><b>Privent.me</b> uses Google Location Data from the past two weeks to predict if you had contact with the virus. This is done solely to help identify other virus carriers.</string>
 </resources>
