@@ -54,7 +54,7 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView8"
