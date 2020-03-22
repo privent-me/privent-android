@@ -10,4 +10,5 @@
     <string name="localization">Localization</string>
     <string name="privacy">Privacy</string>
     <string name="liability">Liability</string>
+    <string name="synchro_text">last synchronisation: <b>3 minutes ago </b></string>
 </resources>
