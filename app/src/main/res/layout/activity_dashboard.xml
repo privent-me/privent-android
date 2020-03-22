@@ -188,4 +188,38 @@
         app:layout_constraintVertical_bias="0.21"
         app:srcCompat="@drawable/ic_icon___menu___filled" />
 
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="87dp"
+        android:layout_height="72dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_p" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_misc_big_button_copy_2"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:layout_constraintVertical_bias="0.37" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
