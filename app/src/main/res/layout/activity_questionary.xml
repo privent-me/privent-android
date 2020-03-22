@@ -68,7 +68,7 @@
             android:layout_marginEnd="207dp"
             android:layout_marginBottom="68dp"
             android:adjustViewBounds="true"
-            android:scaleType="fitStart"
+            android:scaleType="fitXY"
             app:srcCompat="@drawable/ic_combined_shape" />
 
     <ImageView
@@ -84,7 +84,7 @@
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="65dp"
             android:adjustViewBounds="true"
-            android:scaleType="fitEnd"
+            android:scaleType="fitXY"
             app:srcCompat="@drawable/ic_combined_shape_copy" />
 
     <TextView
