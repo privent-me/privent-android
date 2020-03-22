@@ -41,19 +41,19 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="217dp"
-        android:layout_height="258dp"
-        android:layout_alignStart="@+id/imageView7"
-        android:layout_alignTop="@+id/imageView7"
-        android:layout_alignEnd="@+id/imageView7"
-        android:layout_alignBottom="@+id/imageView7"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="96dp"
-        android:alpha="0.3"
-        app:srcCompat="@drawable/ic_icons___loungs_copy_5" />
+            android:id="@+id/imageView8"
+            android:layout_width="217dp"
+            android:layout_height="258dp"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="96dp"
+            android:alpha="0.1"
+            app:srcCompat="@drawable/ic_icons___loungs_copy_5" />
 
     <ImageView
             android:id="@+id/imageView9"
